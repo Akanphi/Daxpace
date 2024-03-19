@@ -1,0 +1,8 @@
+name: whate_time_is_it
+run-name: ${{ github.actor }}
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - run: date
